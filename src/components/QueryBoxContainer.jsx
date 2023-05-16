@@ -98,7 +98,7 @@ export default function QueryBoxContainer() {
                     onClick={() => { getOptionsProgress(option) }}
                 />
                 <Text
-                    fontSize={'1.4rem'}
+                    fontSize={'21px'}
                     fontWeight={'400'}
                     cursor={'pointer'}
                     onClick={() => { getOptionsProgress(option) }}
