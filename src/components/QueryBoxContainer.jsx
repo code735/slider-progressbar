@@ -40,7 +40,7 @@ export default function QueryBoxContainer() {
         }
     ]);
 
-    const [individual_progress_bar, setindividual_progress_bar] = useState(20)
+    const [individual_progress_bar, setindividual_progress_bar] = useState(0)
     const [option_value, setoptions] = useState("Strongly Disagree")
     const [option_progress_bar, set_option_progress_bar] = useState(0)
     const [curr_question, setcurr_question] = useState(0)
