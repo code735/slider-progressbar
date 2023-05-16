@@ -219,6 +219,9 @@ export default function QueryBoxContainer() {
                         pt={'30'}
                         color={'#903333'}
                         textAlign={'center'}
+                        fontSize={'24px'}
+                        w={'80%'}
+                        margin={'auto'}
                     >
                         {
                             questions[curr_question].question
