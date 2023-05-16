@@ -164,7 +164,7 @@ export default function QueryBoxContainer() {
                             height="8px"
                             isLabelVisible={false}
                         />
-                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'} color={'#20ADB4'}>
+                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'} fontSize={'21px'} color={'#20ADB4'}>
                             IDEALISTIC
                         </Heading>
                     </GridItem>
@@ -175,7 +175,7 @@ export default function QueryBoxContainer() {
                             height="8px"
                             isLabelVisible={false}
                         />
-                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'}>
+                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'} fontSize={'21px'}>
                             DISILLUSIONED
                         </Heading>
                     </GridItem>
@@ -186,7 +186,7 @@ export default function QueryBoxContainer() {
                             height="8px"
                             isLabelVisible={false}
                         />
-                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'}>
+                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'} fontSize={'21px'}>
                             CYNICAL
                         </Heading>
                     </GridItem>
@@ -197,7 +197,7 @@ export default function QueryBoxContainer() {
                             height="8px"
                             isLabelVisible={false}
                         />
-                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'}>
+                        <Heading as={'h2'} fontWeight={'400'} textAlign={'center'} fontSize={'21px'}>
                             HOPEFUL
                         </Heading>
                     </GridItem>
