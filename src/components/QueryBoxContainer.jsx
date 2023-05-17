@@ -155,7 +155,8 @@ export default function QueryBoxContainer() {
                     gap={20}
                     w={'80%'}
                     margin={'auto'}
-                    py={'50'}
+                    pb={'30'}
+                    pt={'50'}
                 >
                     <GridItem>
                         <ProgressBar
@@ -205,6 +206,11 @@ export default function QueryBoxContainer() {
 
                 <Box
                     textAlign={'center'}
+                    justifyContent={'center'}
+                    alignItems={'center'}
+                    display={'flex'}
+                    height={'28%'}
+                    flexDirection={'column'}
                 >
                     <Heading
                         as={'h2'}
