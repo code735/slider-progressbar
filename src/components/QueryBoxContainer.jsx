@@ -238,8 +238,8 @@ export default function QueryBoxContainer() {
                 <Box
                     w={'80%'}
                     margin={'auto'}
-                    py={60}
-
+                    pt={60}
+                    pb={35}
                 >
                     <Box
                         position={'relative'}
