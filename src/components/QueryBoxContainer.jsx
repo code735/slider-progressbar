@@ -289,7 +289,7 @@ export default function QueryBoxContainer() {
                         color='#4A4A4A'
                         cursor={'pointer'}
                         onClick={() => {
-                            if (curr_question != 4) {
+                            if (curr_question != 4 && questions[curr_question].answer !== null) {
                                 setcurr_question(curr_question + 1)
                                 setindividual_progress_bar(individual_progress_bar + 20)
                             }
